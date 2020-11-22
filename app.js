@@ -1,4 +1,4 @@
-const NodeMediaServer = require('node-media-server');
+const NodeMediaServer = require('./');
 const ffmpeg = require("ffmpeg-cli");
 
 // ffmpeg.run(`-re -i sample-video.mp4 -c copy -f flv rtmp://localhost/live/test`);
